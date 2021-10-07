@@ -18,3 +18,7 @@ const { val, inc, dcr, set, reset } = useCounter();
 ```
 const { inputs, handleChange, resetForm, clearForm } = useForm({ ...fields });
 ```
+### `useSet`
+```
+const { set, add, remove, has } = useSet();
+```
