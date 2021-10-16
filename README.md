@@ -22,3 +22,7 @@ const { inputs, handleChange, resetForm, clearForm } = useForm({ ...fields });
 ```
 const { set, add, remove, has } = useSet();
 ```
+### `useAxios`
+```
+const { res, error, loading } = useAxios(url='', method='', headers={}, params={}, query={});
+```
