@@ -26,3 +26,7 @@ const { set, add, remove, has } = useSet();
 ```
 const { res, error, loading } = useAxios(url='', method='', headers={}, params={}, query={});
 ```
+### `useLocalStorage`
+```
+const { item, setItem, removeItem } = useLocalStorage(key, value);
+```
