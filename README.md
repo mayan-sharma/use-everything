@@ -30,3 +30,7 @@ const { res, error, loading } = useAxios(url='', method='', headers={}, params={
 ```
 const { item, setItem, removeItem } = useLocalStorage(key, value);
 ```
+### `useCookie`
+```
+const { cookie, setCookie, removeCookie } = useCookie(key, value);
+```
